@@ -26,9 +26,9 @@ export default eventHandler((event) => {
       </script>
     </head>
     <body>
-      <h1>Welcome to my page!</h1>
+      <h1>VERCEL - NITRO - getQuery</h1>
       <div v-scope>
-        <div style="padding: 20px; background-color: red;" @click="fetchURL">CLICK</div>
+        <a href="#" style="display: block; margin-bottom: 20px;" @click="fetchURL">GET with query params</a>
         <div>
           {{ fetchedData }}
         </div>
