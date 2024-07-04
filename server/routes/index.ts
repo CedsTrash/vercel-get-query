@@ -2,8 +2,7 @@ export default eventHandler((event) => {
   return `
   <html>
     <head>
-      <title>My Page</title>
-      <!--<script src="https://unpkg.com/petite-vue"></script>-->
+      <title>VERCEL - NITRO - getQuery</title>
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <script type="module">
         import { createApp } from 'https://unpkg.com/petite-vue?module'
